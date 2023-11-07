@@ -1,0 +1,871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A50CB0B62AC5060300050CC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50CB0B52AC5060300050CC4 /* AppDelegate.swift */; };
+		A50CB0B82AC5060300050CC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50CB0B72AC5060300050CC4 /* SceneDelegate.swift */; };
+		A50CB0BD2AC5060300050CC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50CB0BB2AC5060300050CC4 /* Main.storyboard */; };
+		A50CB0BF2AC5060400050CC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50CB0BE2AC5060400050CC4 /* Assets.xcassets */; };
+		A50CB0C22AC5060400050CC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50CB0C02AC5060400050CC4 /* LaunchScreen.storyboard */; };
+		A50CB0CD2AC5060400050CC4 /* Vasacom_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50CB0CC2AC5060400050CC4 /* Vasacom_TestTests.swift */; };
+		A50CB0D72AC5060400050CC4 /* Vasacom_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50CB0D62AC5060400050CC4 /* Vasacom_TestUITests.swift */; };
+		A50CB0D92AC5060400050CC4 /* Vasacom_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50CB0D82AC5060400050CC4 /* Vasacom_TestUITestsLaunchTests.swift */; };
+		A541BB5B2ACBBE9F003EEFBC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A541BB592ACBBE9F003EEFBC /* RegisterViewController.swift */; };
+		A541BB5C2ACBBE9F003EEFBC /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A541BB5A2ACBBE9F003EEFBC /* RegisterViewController.xib */; };
+		A541BB602ACC0C29003EEFBC /* HealthServiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A541BB5E2ACC0C29003EEFBC /* HealthServiceTableViewCell.swift */; };
+		A541BB612ACC0C29003EEFBC /* HealthServiceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A541BB5F2ACC0C29003EEFBC /* HealthServiceTableViewCell.xib */; };
+		A541BB652ACC24F7003EEFBC /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A541BB642ACC24F7003EEFBC /* UIView+Ext.swift */; };
+		A541BB682ACC6324003EEFBC /* HealthSolutionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A541BB662ACC6324003EEFBC /* HealthSolutionTableViewCell.swift */; };
+		A541BB692ACC6324003EEFBC /* HealthSolutionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A541BB672ACC6324003EEFBC /* HealthSolutionTableViewCell.xib */; };
+		A541BB6B2ACC6765003EEFBC /* TableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A541BB6A2ACC6765003EEFBC /* TableView+Ext.swift */; };
+		A541BB6E2ACC6B1C003EEFBC /* CovidTestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A541BB6C2ACC6B1C003EEFBC /* CovidTestTableViewCell.swift */; };
+		A541BB6F2ACC6B1C003EEFBC /* CovidTestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A541BB6D2ACC6B1C003EEFBC /* CovidTestTableViewCell.xib */; };
+		A541BB722ACC6DA1003EEFBC /* TrackingProgressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A541BB702ACC6DA1003EEFBC /* TrackingProgressTableViewCell.swift */; };
+		A541BB732ACC6DA1003EEFBC /* TrackingProgressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A541BB712ACC6DA1003EEFBC /* TrackingProgressTableViewCell.xib */; };
+		A541BB762ACC71A2003EEFBC /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A541BB742ACC71A2003EEFBC /* ProductTableViewCell.swift */; };
+		A541BB772ACC71A2003EEFBC /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A541BB752ACC71A2003EEFBC /* ProductTableViewCell.xib */; };
+		A541BB7A2ACC722D003EEFBC /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A541BB782ACC722D003EEFBC /* ProductCollectionViewCell.swift */; };
+		A541BB7B2ACC722D003EEFBC /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A541BB792ACC722D003EEFBC /* ProductCollectionViewCell.xib */; };
+		A54A7ED02ACD1D3E00A6BE48 /* HealthProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A7ECF2ACD1D3E00A6BE48 /* HealthProduct.swift */; };
+		A54A7ED22ACD209E00A6BE48 /* CollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A7ED12ACD209E00A6BE48 /* CollectionView+Ext.swift */; };
+		A59A190D2ACB07E500BA56DF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59A190B2ACB07E500BA56DF /* LoginViewController.swift */; };
+		A59A190E2ACB07E500BA56DF /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A59A190C2ACB07E500BA56DF /* LoginViewController.xib */; };
+		A59A19112ACB0C9A00BA56DF /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59A19102ACB0C9A00BA56DF /* APIService.swift */; };
+		A59A19132ACB0E6600BA56DF /* APISerrviceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59A19122ACB0E6600BA56DF /* APISerrviceImpl.swift */; };
+		A59A19172ACB109600BA56DF /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59A19162ACB109600BA56DF /* LoginResponse.swift */; };
+		A59A191C2ACB116900BA56DF /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59A191B2ACB116900BA56DF /* RemoteDataSource.swift */; };
+		A59A191E2ACB11DC00BA56DF /* RemoteDataSourceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59A191D2ACB11DC00BA56DF /* RemoteDataSourceImpl.swift */; };
+		A59A19202ACB12D900BA56DF /* LoginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59A191F2ACB12D900BA56DF /* LoginRepository.swift */; };
+		A59A19222ACB135000BA56DF /* LoginRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59A19212ACB135000BA56DF /* LoginRepositoryImpl.swift */; };
+		A59A19272ACB14BA00BA56DF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59A19262ACB14BA00BA56DF /* LoginViewModel.swift */; };
+		A59A192B2ACB158F00BA56DF /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59A192A2ACB158F00BA56DF /* Injection.swift */; };
+		A59A192F2ACB16A500BA56DF /* Controller+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59A192E2ACB16A500BA56DF /* Controller+Ext.swift */; };
+		A59A19362ACB17B600BA56DF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59A19342ACB17B600BA56DF /* HomeViewController.swift */; };
+		A59A19372ACB17B600BA56DF /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A59A19352ACB17B600BA56DF /* HomeViewController.xib */; };
+		A5B046092AFA875200D9263C /* HealthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B046082AFA875200D9263C /* HealthService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A50CB0C92AC5060400050CC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A50CB0AA2AC5060300050CC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50CB0B12AC5060300050CC4;
+			remoteInfo = "Vasacom Test";
+		};
+		A50CB0D32AC5060400050CC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A50CB0AA2AC5060300050CC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50CB0B12AC5060300050CC4;
+			remoteInfo = "Vasacom Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A50CB0B22AC5060300050CC4 /* Vasacom Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vasacom Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50CB0B52AC5060300050CC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A50CB0B72AC5060300050CC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A50CB0BC2AC5060300050CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A50CB0BE2AC5060400050CC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A50CB0C12AC5060400050CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A50CB0C32AC5060400050CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A50CB0C82AC5060400050CC4 /* Vasacom TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vasacom TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50CB0CC2AC5060400050CC4 /* Vasacom_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vasacom_TestTests.swift; sourceTree = "<group>"; };
+		A50CB0D22AC5060400050CC4 /* Vasacom TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vasacom TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50CB0D62AC5060400050CC4 /* Vasacom_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vasacom_TestUITests.swift; sourceTree = "<group>"; };
+		A50CB0D82AC5060400050CC4 /* Vasacom_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vasacom_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A541BB592ACBBE9F003EEFBC /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A541BB5A2ACBBE9F003EEFBC /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		A541BB5E2ACC0C29003EEFBC /* HealthServiceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthServiceTableViewCell.swift; sourceTree = "<group>"; };
+		A541BB5F2ACC0C29003EEFBC /* HealthServiceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HealthServiceTableViewCell.xib; sourceTree = "<group>"; };
+		A541BB642ACC24F7003EEFBC /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		A541BB662ACC6324003EEFBC /* HealthSolutionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthSolutionTableViewCell.swift; sourceTree = "<group>"; };
+		A541BB672ACC6324003EEFBC /* HealthSolutionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HealthSolutionTableViewCell.xib; sourceTree = "<group>"; };
+		A541BB6A2ACC6765003EEFBC /* TableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView+Ext.swift"; sourceTree = "<group>"; };
+		A541BB6C2ACC6B1C003EEFBC /* CovidTestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidTestTableViewCell.swift; sourceTree = "<group>"; };
+		A541BB6D2ACC6B1C003EEFBC /* CovidTestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CovidTestTableViewCell.xib; sourceTree = "<group>"; };
+		A541BB702ACC6DA1003EEFBC /* TrackingProgressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingProgressTableViewCell.swift; sourceTree = "<group>"; };
+		A541BB712ACC6DA1003EEFBC /* TrackingProgressTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackingProgressTableViewCell.xib; sourceTree = "<group>"; };
+		A541BB742ACC71A2003EEFBC /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		A541BB752ACC71A2003EEFBC /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
+		A541BB782ACC722D003EEFBC /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		A541BB792ACC722D003EEFBC /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		A54A7ECF2ACD1D3E00A6BE48 /* HealthProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthProduct.swift; sourceTree = "<group>"; };
+		A54A7ED12ACD209E00A6BE48 /* CollectionView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionView+Ext.swift"; sourceTree = "<group>"; };
+		A59A190B2ACB07E500BA56DF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A59A190C2ACB07E500BA56DF /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		A59A19102ACB0C9A00BA56DF /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		A59A19122ACB0E6600BA56DF /* APISerrviceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISerrviceImpl.swift; sourceTree = "<group>"; };
+		A59A19162ACB109600BA56DF /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		A59A191B2ACB116900BA56DF /* RemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSource.swift; sourceTree = "<group>"; };
+		A59A191D2ACB11DC00BA56DF /* RemoteDataSourceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSourceImpl.swift; sourceTree = "<group>"; };
+		A59A191F2ACB12D900BA56DF /* LoginRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepository.swift; sourceTree = "<group>"; };
+		A59A19212ACB135000BA56DF /* LoginRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepositoryImpl.swift; sourceTree = "<group>"; };
+		A59A19262ACB14BA00BA56DF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		A59A192A2ACB158F00BA56DF /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
+		A59A192E2ACB16A500BA56DF /* Controller+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Controller+Ext.swift"; sourceTree = "<group>"; };
+		A59A19342ACB17B600BA56DF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A59A19352ACB17B600BA56DF /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		A5B046082AFA875200D9263C /* HealthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A50CB0AF2AC5060300050CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50CB0C52AC5060400050CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50CB0CF2AC5060400050CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50CB0A92AC5060300050CC4 = {
+			isa = PBXGroup;
+			children = (
+				A50CB0B42AC5060300050CC4 /* Vasacom Test */,
+				A50CB0CB2AC5060400050CC4 /* Vasacom TestTests */,
+				A50CB0D52AC5060400050CC4 /* Vasacom TestUITests */,
+				A50CB0B32AC5060300050CC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A50CB0B32AC5060300050CC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A50CB0B22AC5060300050CC4 /* Vasacom Test.app */,
+				A50CB0C82AC5060400050CC4 /* Vasacom TestTests.xctest */,
+				A50CB0D22AC5060400050CC4 /* Vasacom TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A50CB0B42AC5060300050CC4 /* Vasacom Test */ = {
+			isa = PBXGroup;
+			children = (
+				A59A192C2ACB166B00BA56DF /* Utils */,
+				A59A19292ACB157800BA56DF /* DI */,
+				A59A19232ACB144900BA56DF /* Feature */,
+				A59A19182ACB10D900BA56DF /* Data */,
+				A59A19142ACB101A00BA56DF /* Domain */,
+				A59A190F2ACB0C7700BA56DF /* Network */,
+				A50CB0B52AC5060300050CC4 /* AppDelegate.swift */,
+				A50CB0B72AC5060300050CC4 /* SceneDelegate.swift */,
+				A50CB0BB2AC5060300050CC4 /* Main.storyboard */,
+				A50CB0BE2AC5060400050CC4 /* Assets.xcassets */,
+				A50CB0C02AC5060400050CC4 /* LaunchScreen.storyboard */,
+				A50CB0C32AC5060400050CC4 /* Info.plist */,
+			);
+			path = "Vasacom Test";
+			sourceTree = "<group>";
+		};
+		A50CB0CB2AC5060400050CC4 /* Vasacom TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A50CB0CC2AC5060400050CC4 /* Vasacom_TestTests.swift */,
+			);
+			path = "Vasacom TestTests";
+			sourceTree = "<group>";
+		};
+		A50CB0D52AC5060400050CC4 /* Vasacom TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A50CB0D62AC5060400050CC4 /* Vasacom_TestUITests.swift */,
+				A50CB0D82AC5060400050CC4 /* Vasacom_TestUITestsLaunchTests.swift */,
+			);
+			path = "Vasacom TestUITests";
+			sourceTree = "<group>";
+		};
+		A541BB582ACBBE77003EEFBC /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				A541BB5D2ACBD349003EEFBC /* View */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		A541BB5D2ACBD349003EEFBC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A541BB592ACBBE9F003EEFBC /* RegisterViewController.swift */,
+				A541BB5A2ACBBE9F003EEFBC /* RegisterViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A59A190F2ACB0C7700BA56DF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A59A19102ACB0C9A00BA56DF /* APIService.swift */,
+				A59A19122ACB0E6600BA56DF /* APISerrviceImpl.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A59A19142ACB101A00BA56DF /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				A59A19152ACB102900BA56DF /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		A59A19152ACB102900BA56DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A54A7ECF2ACD1D3E00A6BE48 /* HealthProduct.swift */,
+				A5B046082AFA875200D9263C /* HealthService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A59A19182ACB10D900BA56DF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A59A19192ACB10FB00BA56DF /* Remote */,
+				A59A191F2ACB12D900BA56DF /* LoginRepository.swift */,
+				A59A19212ACB135000BA56DF /* LoginRepositoryImpl.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A59A19192ACB10FB00BA56DF /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				A59A191A2ACB111C00BA56DF /* Response */,
+				A59A191B2ACB116900BA56DF /* RemoteDataSource.swift */,
+				A59A191D2ACB11DC00BA56DF /* RemoteDataSourceImpl.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		A59A191A2ACB111C00BA56DF /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				A59A19162ACB109600BA56DF /* LoginResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		A59A19232ACB144900BA56DF /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				A541BB582ACBBE77003EEFBC /* Register */,
+				A59A19302ACB177E00BA56DF /* Home */,
+				A59A19242ACB145A00BA56DF /* Login */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		A59A19242ACB145A00BA56DF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A59A19282ACB152600BA56DF /* View */,
+				A59A19252ACB147300BA56DF /* ViewModel */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A59A19252ACB147300BA56DF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A59A19262ACB14BA00BA56DF /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A59A19282ACB152600BA56DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A59A190B2ACB07E500BA56DF /* LoginViewController.swift */,
+				A59A190C2ACB07E500BA56DF /* LoginViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A59A19292ACB157800BA56DF /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				A59A192A2ACB158F00BA56DF /* Injection.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		A59A192C2ACB166B00BA56DF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A59A192D2ACB167C00BA56DF /* Extension */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A59A192D2ACB167C00BA56DF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A59A192E2ACB16A500BA56DF /* Controller+Ext.swift */,
+				A541BB642ACC24F7003EEFBC /* UIView+Ext.swift */,
+				A541BB6A2ACC6765003EEFBC /* TableView+Ext.swift */,
+				A54A7ED12ACD209E00A6BE48 /* CollectionView+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A59A19302ACB177E00BA56DF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A59A19332ACB17A300BA56DF /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A59A19332ACB17A300BA56DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A59A19342ACB17B600BA56DF /* HomeViewController.swift */,
+				A59A19352ACB17B600BA56DF /* HomeViewController.xib */,
+				A541BB5E2ACC0C29003EEFBC /* HealthServiceTableViewCell.swift */,
+				A541BB5F2ACC0C29003EEFBC /* HealthServiceTableViewCell.xib */,
+				A541BB662ACC6324003EEFBC /* HealthSolutionTableViewCell.swift */,
+				A541BB672ACC6324003EEFBC /* HealthSolutionTableViewCell.xib */,
+				A541BB6C2ACC6B1C003EEFBC /* CovidTestTableViewCell.swift */,
+				A541BB6D2ACC6B1C003EEFBC /* CovidTestTableViewCell.xib */,
+				A541BB702ACC6DA1003EEFBC /* TrackingProgressTableViewCell.swift */,
+				A541BB712ACC6DA1003EEFBC /* TrackingProgressTableViewCell.xib */,
+				A541BB742ACC71A2003EEFBC /* ProductTableViewCell.swift */,
+				A541BB752ACC71A2003EEFBC /* ProductTableViewCell.xib */,
+				A541BB782ACC722D003EEFBC /* ProductCollectionViewCell.swift */,
+				A541BB792ACC722D003EEFBC /* ProductCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50CB0B12AC5060300050CC4 /* Vasacom Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50CB0DC2AC5060400050CC4 /* Build configuration list for PBXNativeTarget "Vasacom Test" */;
+			buildPhases = (
+				A50CB0AE2AC5060300050CC4 /* Sources */,
+				A50CB0AF2AC5060300050CC4 /* Frameworks */,
+				A50CB0B02AC5060300050CC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vasacom Test";
+			productName = "Vasacom Test";
+			productReference = A50CB0B22AC5060300050CC4 /* Vasacom Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A50CB0C72AC5060400050CC4 /* Vasacom TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50CB0DF2AC5060400050CC4 /* Build configuration list for PBXNativeTarget "Vasacom TestTests" */;
+			buildPhases = (
+				A50CB0C42AC5060400050CC4 /* Sources */,
+				A50CB0C52AC5060400050CC4 /* Frameworks */,
+				A50CB0C62AC5060400050CC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A50CB0CA2AC5060400050CC4 /* PBXTargetDependency */,
+			);
+			name = "Vasacom TestTests";
+			productName = "Vasacom TestTests";
+			productReference = A50CB0C82AC5060400050CC4 /* Vasacom TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A50CB0D12AC5060400050CC4 /* Vasacom TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50CB0E22AC5060400050CC4 /* Build configuration list for PBXNativeTarget "Vasacom TestUITests" */;
+			buildPhases = (
+				A50CB0CE2AC5060400050CC4 /* Sources */,
+				A50CB0CF2AC5060400050CC4 /* Frameworks */,
+				A50CB0D02AC5060400050CC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A50CB0D42AC5060400050CC4 /* PBXTargetDependency */,
+			);
+			name = "Vasacom TestUITests";
+			productName = "Vasacom TestUITests";
+			productReference = A50CB0D22AC5060400050CC4 /* Vasacom TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A50CB0AA2AC5060300050CC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A50CB0B12AC5060300050CC4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					A50CB0C72AC5060400050CC4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A50CB0B12AC5060300050CC4;
+					};
+					A50CB0D12AC5060400050CC4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A50CB0B12AC5060300050CC4;
+					};
+				};
+			};
+			buildConfigurationList = A50CB0AD2AC5060300050CC4 /* Build configuration list for PBXProject "Vasacom Test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A50CB0A92AC5060300050CC4;
+			productRefGroup = A50CB0B32AC5060300050CC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50CB0B12AC5060300050CC4 /* Vasacom Test */,
+				A50CB0C72AC5060400050CC4 /* Vasacom TestTests */,
+				A50CB0D12AC5060400050CC4 /* Vasacom TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A50CB0B02AC5060300050CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A541BB772ACC71A2003EEFBC /* ProductTableViewCell.xib in Resources */,
+				A59A190E2ACB07E500BA56DF /* LoginViewController.xib in Resources */,
+				A541BB7B2ACC722D003EEFBC /* ProductCollectionViewCell.xib in Resources */,
+				A50CB0C22AC5060400050CC4 /* LaunchScreen.storyboard in Resources */,
+				A59A19372ACB17B600BA56DF /* HomeViewController.xib in Resources */,
+				A50CB0BF2AC5060400050CC4 /* Assets.xcassets in Resources */,
+				A50CB0BD2AC5060300050CC4 /* Main.storyboard in Resources */,
+				A541BB6F2ACC6B1C003EEFBC /* CovidTestTableViewCell.xib in Resources */,
+				A541BB612ACC0C29003EEFBC /* HealthServiceTableViewCell.xib in Resources */,
+				A541BB732ACC6DA1003EEFBC /* TrackingProgressTableViewCell.xib in Resources */,
+				A541BB692ACC6324003EEFBC /* HealthSolutionTableViewCell.xib in Resources */,
+				A541BB5C2ACBBE9F003EEFBC /* RegisterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50CB0C62AC5060400050CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50CB0D02AC5060400050CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A50CB0AE2AC5060300050CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A541BB6E2ACC6B1C003EEFBC /* CovidTestTableViewCell.swift in Sources */,
+				A59A190D2ACB07E500BA56DF /* LoginViewController.swift in Sources */,
+				A5B046092AFA875200D9263C /* HealthService.swift in Sources */,
+				A59A191C2ACB116900BA56DF /* RemoteDataSource.swift in Sources */,
+				A59A19272ACB14BA00BA56DF /* LoginViewModel.swift in Sources */,
+				A59A19132ACB0E6600BA56DF /* APISerrviceImpl.swift in Sources */,
+				A59A19222ACB135000BA56DF /* LoginRepositoryImpl.swift in Sources */,
+				A59A19362ACB17B600BA56DF /* HomeViewController.swift in Sources */,
+				A541BB5B2ACBBE9F003EEFBC /* RegisterViewController.swift in Sources */,
+				A541BB762ACC71A2003EEFBC /* ProductTableViewCell.swift in Sources */,
+				A54A7ED22ACD209E00A6BE48 /* CollectionView+Ext.swift in Sources */,
+				A541BB7A2ACC722D003EEFBC /* ProductCollectionViewCell.swift in Sources */,
+				A59A19172ACB109600BA56DF /* LoginResponse.swift in Sources */,
+				A50CB0B62AC5060300050CC4 /* AppDelegate.swift in Sources */,
+				A59A19112ACB0C9A00BA56DF /* APIService.swift in Sources */,
+				A541BB602ACC0C29003EEFBC /* HealthServiceTableViewCell.swift in Sources */,
+				A59A191E2ACB11DC00BA56DF /* RemoteDataSourceImpl.swift in Sources */,
+				A541BB6B2ACC6765003EEFBC /* TableView+Ext.swift in Sources */,
+				A59A192B2ACB158F00BA56DF /* Injection.swift in Sources */,
+				A54A7ED02ACD1D3E00A6BE48 /* HealthProduct.swift in Sources */,
+				A541BB682ACC6324003EEFBC /* HealthSolutionTableViewCell.swift in Sources */,
+				A541BB652ACC24F7003EEFBC /* UIView+Ext.swift in Sources */,
+				A59A192F2ACB16A500BA56DF /* Controller+Ext.swift in Sources */,
+				A50CB0B82AC5060300050CC4 /* SceneDelegate.swift in Sources */,
+				A59A19202ACB12D900BA56DF /* LoginRepository.swift in Sources */,
+				A541BB722ACC6DA1003EEFBC /* TrackingProgressTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50CB0C42AC5060400050CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50CB0CD2AC5060400050CC4 /* Vasacom_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50CB0CE2AC5060400050CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50CB0D72AC5060400050CC4 /* Vasacom_TestUITests.swift in Sources */,
+				A50CB0D92AC5060400050CC4 /* Vasacom_TestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A50CB0CA2AC5060400050CC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A50CB0B12AC5060300050CC4 /* Vasacom Test */;
+			targetProxy = A50CB0C92AC5060400050CC4 /* PBXContainerItemProxy */;
+		};
+		A50CB0D42AC5060400050CC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A50CB0B12AC5060300050CC4 /* Vasacom Test */;
+			targetProxy = A50CB0D32AC5060400050CC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A50CB0BB2AC5060300050CC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A50CB0BC2AC5060300050CC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A50CB0C02AC5060400050CC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A50CB0C12AC5060400050CC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A50CB0DA2AC5060400050CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A50CB0DB2AC5060400050CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A50CB0DD2AC5060400050CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 846H8ZXGL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Vasacom Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "galangaji.co.Vasacom-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A50CB0DE2AC5060400050CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 846H8ZXGL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Vasacom Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "galangaji.co.Vasacom-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A50CB0E02AC5060400050CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 846H8ZXGL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "galangaji.co.Vasacom-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vasacom Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vasacom Test";
+			};
+			name = Debug;
+		};
+		A50CB0E12AC5060400050CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 846H8ZXGL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "galangaji.co.Vasacom-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vasacom Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vasacom Test";
+			};
+			name = Release;
+		};
+		A50CB0E32AC5060400050CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 846H8ZXGL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "galangaji.co.Vasacom-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vasacom Test";
+			};
+			name = Debug;
+		};
+		A50CB0E42AC5060400050CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 846H8ZXGL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "galangaji.co.Vasacom-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vasacom Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A50CB0AD2AC5060300050CC4 /* Build configuration list for PBXProject "Vasacom Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50CB0DA2AC5060400050CC4 /* Debug */,
+				A50CB0DB2AC5060400050CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50CB0DC2AC5060400050CC4 /* Build configuration list for PBXNativeTarget "Vasacom Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50CB0DD2AC5060400050CC4 /* Debug */,
+				A50CB0DE2AC5060400050CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50CB0DF2AC5060400050CC4 /* Build configuration list for PBXNativeTarget "Vasacom TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50CB0E02AC5060400050CC4 /* Debug */,
+				A50CB0E12AC5060400050CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50CB0E22AC5060400050CC4 /* Build configuration list for PBXNativeTarget "Vasacom TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50CB0E32AC5060400050CC4 /* Debug */,
+				A50CB0E42AC5060400050CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A50CB0AA2AC5060300050CC4 /* Project object */;
+}
